@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+black = "==19.3b0"
+pep8-naming = "*"
+
+[packages]
+click = "*"
+pymongo = "*"
+beautifulsoup4 = "*"
+pyyaml = "*"
+requests = "*"
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,10 @@
+stages:
+    - test
+
+lint_and_test:
+    image: python:3.7
+    stage: test
+    script:
+        - pip install pipenv
+        - pipenv install --dev
+        - pipenv run flake8 .
