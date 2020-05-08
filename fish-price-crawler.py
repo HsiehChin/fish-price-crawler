@@ -32,7 +32,7 @@ def common_era_to_republic_era(date):
     Returns:
         A date string which is republic era.
         For example:
-        "1999.08.10"
+        "109.01.01"
     """
     republic_era = date.replace(year=date.year - 1911)
     return republic_era.strftime("%Y.%m.%d")
